@@ -27,7 +27,7 @@ class TableViewController: UITableViewController {
         
         alertController.addTextField { _ in} // alert
         
-        let cancelAction = UIAlertAction(title: "Отмена", style: .default) { _ in} // button cancel
+        let cancelAction = UIAlertAction(title: "Отмена", style: .cancel) { _ in} // button cancel
         
         alertController.addAction(saveTask) // add button saveTasj
         alertController.addAction(cancelAction) // add button cancelAction

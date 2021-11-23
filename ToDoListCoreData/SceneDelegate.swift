@@ -1,9 +1,3 @@
-//
-//  SceneDelegate.swift
-//  ToDoListCoreData
-//
-//  Created by Kirill Drozdov on 22.11.2021.
-//
 
 import UIKit
 
@@ -36,7 +30,5 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
     }
-
-
 }
 
